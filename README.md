@@ -2,7 +2,7 @@
 
 > **At a glance** · questionnaire design for university catering · 8-item Guttman scale on reactive aggression (**CR = 0.912**), negatively associated with optimism (LOT-R) · BES-based composite index for Italian regions, robustness checked across 5 aggregation methods, 3 regional clusters · R, Excel
 >
-> 📄 Full report (Italian): [`elaborato.pdf`](elaborato.pdf)
+> 📄 [English summary](survey_wellbeing_summary_EN.pdf) · full report in Italian: [`elaborato.pdf`](elaborato.pdf)
 
 This project was developed for the Social Statistics course and combines three different applications of quantitative methods to social research.
 
@@ -65,7 +65,8 @@ Excel was used to organise the BES data, manage the elementary indicators and su
 A word-processing tool was used to design and prepare the questionnaire in a printable format.
 
 ### Repository Contents
-- elaborato.pdf — complete project report
+- elaborato.pdf — complete project report (Italian)
+- survey_wellbeing_summary_EN.pdf — 2-page summary in English
 - questionario_versione_stampabile.pdf — printable version of the survey questionnaire
 - indicatore_sintetico.xlsx — BES data and spreadsheets used to construct the composite indicator
 - script_R.R — R script used for the statistical analyses (reads its input CSV files from a `data/` folder)
