@@ -1,6 +1,6 @@
 # ----------------------------------- Punto 2  ----------------------------------- 
 # VALIDAZIONE DELLA SCALA ATTRAVERSO IL CALCOLO DI CR e MMR
-dati <- read.csv2("~/Desktop/stat sociale/tavola.csv") #importazione dati 
+dati <- read.csv2("data/tavola.csv") #importazione dati 
 colnames(dati) <- trimws(tolower(colnames(dati)))
 items_scala <- c ("v26", "v35", "v42", "v15", "v37","v20", "v28", "v36", "v54", "v44", "v48", "v22") 
 #scala iniziale, poi si possono poi eliminare gli item, fino ad arrivare a 8 
@@ -58,7 +58,7 @@ for(i in 1:n_soggetti){
 errori_item
 
 #scala con otto item 
-scalaitem <- read.csv2("~/Desktop/stat sociale/scalaitem.csv")
+scalaitem <- read.csv2("data/scalaitem.csv")
 head(scalaitem)
 items <- scalaitem[, c("v26","v35","v42","v15","v37","v20","v28","v48")]
 # Somma per ogni individuo
@@ -100,7 +100,7 @@ data.frame(
 )
 
 # Test LOT-R 
-lotR <- read.csv2("~/Desktop/stat sociale/lotR.csv")
+lotR <- read.csv2("data/lotR.csv")
 colnames(lotR) <- tolower(colnames(lotR))
 head(lotR)
 # Inversione degli item negativi 
@@ -140,7 +140,7 @@ cor.test(dati_finali$somma, dati_finali$lotr)
 library(Compind)
 library(stringr)
 
-mydata <- read.csv2("~/Desktop/stat sociale/indici.csv")
+mydata <- read.csv2("data/indici.csv")
 mydata
 # Nuovi nomi alle variabili per semplicità
 colnames(mydata) <- c("Territorio","X1","X2","X3","X4","X5","X6","X7")
@@ -416,7 +416,7 @@ print(fusion_table)
 
 #------------------------------- CONFRONTO INDICATORE E SODDISFAZIONE ------------------------------- 
 library(dplyr)
-sodd <- read.csv2("~/Desktop/stat sociale/soddisfazione_vita.csv")
+sodd <- read.csv2("data/soddisfazione_vita.csv")
 # Si tengono solo le regioni (no province autonome)
 sodd_reg <- sodd[c(1:5,8:22), c("Territorio", "Soddisfazione.per.la.propria.vita")]
 sodd_reg 
