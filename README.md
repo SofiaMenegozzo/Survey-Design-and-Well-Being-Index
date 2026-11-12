@@ -41,8 +41,8 @@ The project applies three quantitative tools of social research:
 ## How to reproduce
 
 ```bash
-git clone https://github.com/SofiaMenegozzo/Survey-Design-and-Statistical-Models-and-Composite-Well-Being-Index.git
-cd Survey-Design-and-Statistical-Models-and-Composite-Well-Being-Index
+git clone https://github.com/SofiaMenegozzo/Survey-Design-and-Well-Being-Index.git
+cd Survey-Design-and-Well-Being-Index
 ```
 
 - **Inspect all results in R:** `load("environment.RData")` restores the datasets and every object created by the analysis (scale, tests, index, clusters).
