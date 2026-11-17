@@ -37,7 +37,6 @@ The project applies three quantitative tools of social research:
 `environment.RData` | Saved R workspace with data and results |
 `indicatore_sintetico.xlsx` | BES data and all composite-index calculations |
 `questionario_versione_stampabile.pdf` | Final questionnaire |
-`survey_wellbeing_summary_EN.pdf` | 2-page summary in English |
 `elaborato.pdf` | Full report (Italian) |
 
 **Tools:** R · Excel
