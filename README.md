@@ -1,6 +1,5 @@
 # Survey Design and a Composite Well-Being Index
-
-**Questionnaire design · Guttman scale · BES composite index for Italian regions, robust across 5 methods **
+Questionnaire design · Guttman scale · BES composite index for Italian regions, robust across 5 methods 
 
 ## Research questions
 The project applies three quantitative tools of social research:
@@ -29,11 +28,15 @@ The project applies three quantitative tools of social research:
 
 ## Repository contents
 
-`script_R.R` | R script for parts 2 and 3 |
-`environment.RData` | Saved R workspace with data and results |
-`indicatore_sintetico.xlsx` | BES data and all composite-index calculations |
-`questionario_versione_stampabile.pdf` | Final questionnaire |
-`elaborato.pdf` | Full report (Italian) |
+`script_R.R`  R script for parts 2 and 3 
+
+`environment.RData` Saved R workspace with data and results 
+
+`indicatore_sintetico.xlsx` BES data and all composite-index calculations 
+
+`questionario_versione_stampabile.pdf` Final questionnaire 
+
+`elaborato.pdf` Full report (Italian) 
 
 **Tools:** R · Excel
 
