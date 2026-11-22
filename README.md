@@ -21,13 +21,9 @@ The project applies three quantitative tools of social research:
 ## Key results
 **1. A reliable 8-item scale.** Removing the items with most scaling errors raised the reproducibility from 0.80 to **0.912**, above the conventional 0.90 threshold.
 
-<p align="center"><img src="figures/sur_guttman.png" width="460" alt="Reproducibility at each step of item selection"></p>
-
 **2. Aggression and optimism move in opposite directions.** Women score slightly but significantly higher on the aggression scale, mostly on indirect items; aggression is negatively associated with optimism (r = −0.22, 95% CI −0.28 to −0.15).
 
 **3. A robust North–South gradient in education and culture.** All five aggregation methods agree (Spearman > 0.98, Kendall's W = 0.989). Lazio, Emilia-Romagna and Lombardy lead; Sicily, Puglia and Calabria close the ranking; clustering finds three groups of regions. The index is only weakly related to life satisfaction.
-
-<p align="center"><img src="figures/sur_index.png" width="480" alt="Composite education and culture index by region"></p>
 
 **Limitations.** The questionnaire was not piloted; the Guttman scale relies on self-reported data and is only just above the 0.90 threshold; index weights involve judgement and some BES values were missing.
 
